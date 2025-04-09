@@ -1,14 +1,11 @@
 import './App.css'
-import Form from "./components/Form/Form.tsx";
+import FormulaInput from "./components/FormulaInput.tsx";
+
 
 
 function App() {
 
-  return (
-    <>
-     <Form />
-    </>
-  )
+  return (<FormulaInput />)
 }
 
 export default App
